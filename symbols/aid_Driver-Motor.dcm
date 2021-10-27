@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L9110H
+D L9110H H-bridge motor driver for DC motors (DIP8)
+F https://cdn-shop.adafruit.com/product-files/4489/4489_datasheet-l9110.pdf
+$ENDCMP
+#
+#End Doc Library
