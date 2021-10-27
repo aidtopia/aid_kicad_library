@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DFPlayerMini
+K MP3 WAV Audio Player
+F https://github.com/Arduinolibrary/DFPlayer_Mini_mp3/raw/master/DFPlayer%20Mini%20Manual.pdf
+$ENDCMP
+#
+#End Doc Library
