@@ -1,6 +1,6 @@
 (footprint "DFPlayer_Mini" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61F707C5)
+  (tedit 61F78852)
   (descr "Serial MP3 audio player with TF (micro SD) card slot")
   (tags "THT module")
   (attr through_hole)
@@ -44,9 +44,4 @@
   (pad "14" thru_hole oval (at 17.78 5.08) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 0f22151c-f260-4674-b486-4710a2c42a55))
   (pad "15" thru_hole oval (at 17.78 2.54) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 0b21a65d-d20b-411e-920a-75c343ac5136))
   (pad "16" thru_hole oval (at 17.78 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp d57dcfee-5058-4fc2-a68b-05f9a48f685b))
-  (model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-24_W15.24mm.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
