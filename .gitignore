@@ -1,1 +1,3 @@
 *.bak
+model_sources/*.stl
+model_sources/*.png

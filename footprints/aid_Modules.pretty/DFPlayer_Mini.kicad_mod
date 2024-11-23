@@ -361,4 +361,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "D:/github_projects/aid_kicad_library/model_sources/DFPlayerMini.wrl"
+		(offset
+			(xyz 0 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
