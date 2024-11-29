@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "1A 30V SPDT Micro Switch rated for one million cycles, W12.7xD5.7xH6.6, https://www.helloxkb.com/public/images/pdf/DMX-XXXP-X.pdf")
-	(tags "SPDT endstop limit switch vertical hook lever XKB DM1-16UP-1")
+	(descr "Honeywell Microswitch ZX40E20C01, W12.8xD5.8xH6.5")
+	(tags "SPDT endstop limit switch lever Honeywell Microswitch ZX40E20C01")
 	(property "Reference" "REF**"
 		(at 5.08 -4.064 0)
 		(unlocked yes)
@@ -66,6 +66,116 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -0.3 -1.1)
+		(end -0.3 -2.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "20c54b88-d21a-43e1-a2b6-8531ed689a09")
+	)
+	(fp_line
+		(start -0.3 1.1)
+		(end -0.3 2.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9df85c22-c952-42b7-afaf-356fd319d1f1")
+	)
+	(fp_line
+		(start -0.3 2.1)
+		(end -0.3 1.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dddf4601-e029-4bfc-8d0c-b9662e42b0d8")
+	)
+	(fp_line
+		(start 1.1 -0.99)
+		(end 4.25 -0.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "69e0797c-61ad-45d0-9499-62341e9cf62c")
+	)
+	(fp_line
+		(start 1.1 0.9)
+		(end 4.2 0.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1d9247e4-f226-4adf-8fa4-2380843baad4")
+	)
+	(fp_line
+		(start 6 -0.59)
+		(end 7 -0.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "acbfce6a-f88c-44f7-96bb-4e18f2db6f70")
+	)
+	(fp_line
+		(start 7 -0.5)
+		(end 7 0.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6709b873-858d-47a6-99cd-835e37752117")
+	)
+	(fp_line
+		(start 7 0.5)
+		(end 6.01 0.58)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "483582fb-ec59-47e1-9506-731719d52485")
+	)
+	(fp_line
+		(start 12.7 -1.6)
+		(end -0.3 -2.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "995a417f-2115-4e13-818a-502b96cfaa06")
+	)
+	(fp_line
+		(start 12.7 -1.6)
+		(end 12.7 1.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "237d8d2d-4855-4d59-b805-b46fc0476ada")
+	)
+	(fp_line
+		(start 12.7 1.6)
+		(end -0.3 2.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a2bd60cd-0713-4062-bcfa-bab8f8f8f5c4")
+	)
 	(fp_rect
 		(start 2.52 -1.45)
 		(end 3.64 1.45)
@@ -78,7 +188,7 @@
 		(uuid "f7ce1080-2c39-4c47-9747-4a21d73832cc")
 	)
 	(fp_rect
-		(start 11.538 -3.048)
+		(start 11.628 -3.048)
 		(end -1.478 3.048)
 		(stroke
 			(width 0.12)
@@ -87,18 +197,6 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "bf076966-3948-431b-abd3-519b8c7bf54f")
-	)
-	(fp_poly
-		(pts
-			(xy -0.3 -2.1) (xy -0.3 -1) (xy 7 -0.5) (xy 7 0.5) (xy -0.3 1) (xy -0.3 2.1) (xy 12.7 1.6) (xy 12.7 -1.5)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "c5efc521-378b-4530-bb61-0040711fbf1a")
 	)
 	(fp_rect
 		(start -1.7 -3.2)
@@ -113,7 +211,7 @@
 	)
 	(fp_rect
 		(start -1.32 -2.9)
-		(end 11.38 2.9)
+		(end 11.48 2.9)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -178,7 +276,7 @@
 			(xy -1.32 -2.9) (xy -1.32 2.9)
 		)
 		(height 2.98)
-		(gr_text "5.8000 mm"
+		(gr_text "5.8 mm"
 			(at -5.45 0 90)
 			(layer "Dwgs.User")
 			(uuid "0d823c97-a637-4bba-80e1-ef5bf830320f")
@@ -194,7 +292,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 1)
 		)
 		(style
 			(thickness 0.12)
@@ -208,11 +306,11 @@
 		(layer "Dwgs.User")
 		(uuid "2bb7c692-0c36-4308-bf7f-b50fdcd8a8bb")
 		(pts
-			(xy 11.38 -2.9) (xy -1.32 -2.9)
+			(xy 11.48 -2.9) (xy -1.32 -2.9)
 		)
 		(height 2.3)
-		(gr_text "12.7000 mm"
-			(at 5.03 -6.35 0)
+		(gr_text "12.80 mm"
+			(at 5.08 -6.35 0)
 			(layer "Dwgs.User")
 			(uuid "2bb7c692-0c36-4308-bf7f-b50fdcd8a8bb")
 			(effects
@@ -227,7 +325,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.12)
